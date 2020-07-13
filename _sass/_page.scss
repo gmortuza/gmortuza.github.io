@@ -384,9 +384,9 @@
   @include clearfix();
   float: left;
 
-  @include breakpoint($large) {
-    @include pre(2.5 of 12);
-  }
+ // @include breakpoint($large) {
+  //  @include pre(2.5 of 12);
+ // }
 
   a {
     color: inherit;

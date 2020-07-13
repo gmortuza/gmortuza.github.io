@@ -9,13 +9,14 @@
 locale                   : "en-US"
 title                    : "Golam Mortuza"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://gmortuza.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Golam Mortuza"
+description              : &description "Machine learning enthusiast | Ph.D. student"
+#url                      : http://127.0.0.1:4000/
+url                      : https://gmortuza.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "gmortuza/gmortuza.github.io"
+repository               : ""
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
@@ -57,9 +58,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : "_gmortuza"
 facebook:
-  username               :
+  username               : "abhi.mortuza"
   app_id                 :
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
@@ -82,34 +83,34 @@ analytics:
 author:
   name             : "Golam Mortuza"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
+  bio              : "Data scientist | Machine learning enthusiast | Ph.D. student"
+  location         : "Boise, Idaho, USA"
+  employer         : 
   pubmed           : 
   googlescholar    : 
-  email            :
+  email            : "golammortuzaabhi@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "abhi.mortuza"
   foursquare       :
   github           : "gmortuza"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
   linkedin         : "gmortuza"
   orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : "6827982"
   steam            :
   tumblr           :
-  twitter          : "_gmortuza"
+  twitter          : "@_gmortuza"
   vine             :
   weibo            :
   xing             :
@@ -175,9 +176,6 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -196,8 +194,8 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
+      layout: single_post
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -255,7 +253,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Boise # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
