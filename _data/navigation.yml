@@ -1,6 +1,6 @@
 # main links links
 main:
-  - title: "Resume"
-    url: /resume/
   - title: "Contact"
     url: /contact
+  - title: "Search"
+    url: /search
