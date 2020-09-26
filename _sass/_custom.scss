@@ -1,0 +1,14 @@
+.img-with-source{
+    text-align: center;
+    font-size: .8em!important;
+    color:gray;
+    img{
+        display: block;
+        margin: 0 auto;
+        margin-bottom:.2em;
+    }
+    a{
+        text-decoration: underline;
+        color:gray;
+    }
+}
