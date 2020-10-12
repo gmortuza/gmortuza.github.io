@@ -3,7 +3,8 @@ title: 'Get Started with docker'
 date: 2020-08-06
 permalink: /posts/docker-get-started
 mathjax: false
-excerpt: This is the demo post excerpt
+excerpt: Docker provides OS-level virtualization like virtual machine. Unlike virtual machine docker is fast and minimal weight.......
+
 imgDir: '/images/docker-get-started/'
 categories:
   - DevOps
