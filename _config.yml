@@ -11,8 +11,8 @@ title                    : "Golam Mortuza"
 title_separator          : "-"
 name                     : &name "Golam Mortuza"
 description              : &description "Machine learning enthusiast | Ph.D. student"
-url                      : http://127.0.0.1:4000/
-#url                      : https://gmortuza.github.io/
+#url                      : http://127.0.0.1:4000/
+url                      : https://gmortuza.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : ""
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
